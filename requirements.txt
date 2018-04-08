@@ -1,0 +1,7 @@
+scipy
+numpy
+matplotlib
+seaborn
+pandas
+nilearn
+colorspacious
