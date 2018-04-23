@@ -40,4 +40,8 @@ def update_derivatives(cmaps):
     # Scale
     derivs_scaled = derivs.apply(lambda a: (a - np.mean(a)) / (np.max(derivs.values) - np.min(derivs.values)))
     derivs_scaled += 1
+    
+    # Add a linear column
+    derivs_scaled['linear'] = 1
+    derivs['linear'] = 1
     return derivs, derivs_scaled 
