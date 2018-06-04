@@ -25,10 +25,17 @@ def makeitpop(data, colormap='jet', scaling_factor=20, invert=False):
     data : numpy array
         The data you'd like to make more sexy.
     colormap : string | array, shape (n_derivatives,)
+<<<<<<< HEAD
         The colormap you'd like to use to warp your data. Assume to be a
         string that will index into `makeitpop.scaled_derivatives`.
     scaling_factor : int
         Higher values will accentuate the "popping" effect.
+=======
+        The colormap you'd like to use to warp your data. If a string, this will
+        index into `makeitpop.scaled_derivatives`. If an array, it is assumed to
+        be the scaled derivatives of a colormap, where the first value corresponds
+        to x == 0, and the last value to x == 1.
+>>>>>>> a64c0c72e739f09ea1194bffe0a2fceb07127f9c
     invert : bool
         Whether to invert the perceptual warping function of the colormap.
 
