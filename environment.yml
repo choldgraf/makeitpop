@@ -1,6 +1,6 @@
 name: makeitpop
 
-packages:
+dependencies:
   - scipy
   - numpy
   - matplotlib
