@@ -8,4 +8,4 @@ dependencies:
   - pandas
   - pip:
     - colorspacious
-    - -e git+git://github.com/choldgraf/makeitpop.git#egg=master
+    - makeitpop
