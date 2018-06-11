@@ -6,6 +6,6 @@ dependencies:
   - matplotlib
   - seaborn
   - pandas
-  - colorspacious
   - pip:
+ c  - colorspacious
     - -e git://github.com/choldgraf/makeitpop.git#egg=master
