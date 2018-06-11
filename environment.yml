@@ -1,0 +1,11 @@
+name: makeitpop
+
+packages:
+  - scipy
+  - numpy
+  - matplotlib
+  - seaborn
+  - pandas
+  - colorspacious
+  - pip:
+    - -e git://github.com/choldgraf/makeitpop.git#egg=master
