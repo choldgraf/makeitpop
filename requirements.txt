@@ -3,5 +3,5 @@ numpy
 matplotlib
 seaborn
 pandas
-nilearn
 colorspacious
+-e git://github.com/choldgraf/makeitpop.git#egg=master
